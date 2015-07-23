@@ -13,7 +13,6 @@ def pick():
     if operator == " ":
         operator = "+"
     difficulty = int(raw_input('\nDIFFICULTY (1=easy 2=medium 3=hard): '))
-    print operator
     return operator, difficulty
 
 def generate(oper, diff):
@@ -26,6 +25,10 @@ def generate(oper, diff):
         num = list[0]
         list[0] = list[1]
         list[1] = num
+    if list[0] == list[1] and list[2] < list[3]:
+        num = list[2]
+        list[2] = list[3]
+        list[3] = num
 
     for i in range(0, len(list)):
         list[i] = str(list[i])
