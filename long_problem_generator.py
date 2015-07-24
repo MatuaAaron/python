@@ -1,4 +1,5 @@
-# Long + - x / Random Problem Generator
+# Long Problem Generator
+# The Long Problem Generator will give you a randomly generated long addition, subtraction, multiplication or division problem. You pick the operator you want to work with and the difficulty.
 # Author: Aaron Haines
 # Date: 23-July-2015
 # Copyright: CC BY-NC-SA 4.0
